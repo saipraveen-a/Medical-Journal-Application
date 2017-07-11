@@ -18,6 +18,7 @@ Initialization of Database:
 	
 Email Server:
 
-	The application uses Google SMTP server to send emails to users. A test account has been setup for the purpose of demonstration.
-
+	The application uses Google SMTP server to send emails to users. You can set the value for the test account and the password in
+	application.properties
+	
 There is no separate SQL folder added for the sql scripts as we are automating the schema changes with Flyway
